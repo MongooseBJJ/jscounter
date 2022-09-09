@@ -9,9 +9,20 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Counter</h1>
+    <div class="container-fluid text-center">
+        <h1 class="hero">Counter</h1>
+        <div class="container number-container">
+            <h2><span id="value">0</span></h2>
+        </div>
+        <div class="container btn-container" style="color: white;">
+            <button class="btn decrease btn-outline-dark">decrease</button>
+            <button class="btn reset btn-outline-dark">reset</button>
+            <button class="btn increase btn-outline-dark">increase</button>
+            <button class="btn by10 btn-outline-dark">x10</button>
+        </div>
+
     </div>
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
